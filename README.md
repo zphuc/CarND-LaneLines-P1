@@ -58,14 +58,11 @@ Final Result
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
-
+The parameters were not handly tunned well. 
+Large errors were found for the "Optional challenge" video.  
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+Some automatic tuning on the parameters need to be done for each case.  
+Another potential improvement could be done by ...
 
-Another potential improvement could be to ...
