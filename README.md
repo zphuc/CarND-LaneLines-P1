@@ -3,11 +3,11 @@
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
-[image2]: ./examples/grayscale.jpg "Grayscale"
-[image3]: ./examples/grayscale.jpg "Grayscale"
-[image4]: ./examples/grayscale.jpg "Grayscale"
-[image5]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_out/s0.png "Grayscale"
+[image2]: ./test_images_out/s0.png "Grayscale"
+[image3]: ./test_images_out/s0.png "Grayscale"
+[image4]: ./test_images_out/s0.png "Grayscale"
+[image5]: ./test_images_out/s0.png "Grayscale"
 
 ---
 
