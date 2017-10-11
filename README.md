@@ -3,16 +3,7 @@
 
 [//]: # (Image References)
 
-[image0]: ./test_images_out/s0.png "Grayscale"
-[image1]: ./test_images_out/s1.png "Grayscale"
-[image2]: ./test_images_out/s2.png "Grayscale"
-[image3]: ./test_images_out/s3.png "Grayscale"
-[image4]: ./test_images_out/s4.png "Grayscale"
-[image5]: ./test_images_out/s5.png "Grayscale"
-
 ---
-
-### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
@@ -22,7 +13,9 @@ My pipeline consisted of 5 steps.
 2. Applied Gaussian smoothing for each image
 3. Applied Canny
 4. Applied image mask
+   Some tuning was done for vertices to obtain the good mask 
 5. Run Hough on edge detected image
+   Some tunning was done for the threshold, min_line_length and max_line_gap parameters.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by the following steps.
 
