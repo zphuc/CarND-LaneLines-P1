@@ -31,7 +31,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 Follow images show results how the pipeline works.
 ### Orginal image
-![alt text][image0]
+<img src="test_images_out/s0.png" width="480" alt="Combined Image" />
 
 ### Step1
 ![alt text][image1]
