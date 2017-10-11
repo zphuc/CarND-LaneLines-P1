@@ -31,9 +31,13 @@ b) Average the lines for the left line vs. the right line by their slope ((y2-y1
 Follow images show results how the pipeline works. 
 
 ![alt text][image1]
+
 ![alt text][image2]
+
 ![alt text][image3]
+
 ![alt text][image4]
+
 ![alt text][image5]
 
 
