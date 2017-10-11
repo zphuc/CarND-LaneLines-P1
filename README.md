@@ -1,4 +1,4 @@
-# **Finding Lane Lines on the Road** Report
+# **"Finding Lane Lines on the Road" Report**
 ---
 
 [//]: # (Image References)
@@ -24,7 +24,9 @@ My pipeline consisted of 5 steps.
 5. Run Hough on edge detected image
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by the following steps.
+
 a) Extrapolate to the top and bottom of the lane.
+
 b) Average the lines for the left line vs. the right line by their slope ((y2-y1)/(x2-x1))
 
 
