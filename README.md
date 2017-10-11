@@ -28,8 +28,11 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 1. Extrapolate to the top and bottom of the lane.
 2. Average the lines for the left line vs. the right line by their slope ((y2-y1)/(x2-x1))
+   Moreover, I also adopted the ranges of the slopes from 15deg to 75deg to limit the error lines 
+
 
 Follow images show results how the pipeline works.
+
 Orginal image
 
 <img src="test_images_out/s0.png" width="480" alt="Combined Image" />
