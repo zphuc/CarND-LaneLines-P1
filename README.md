@@ -1,16 +1,13 @@
-# **Finding Lane Lines on the Road**  Submission
+# **"Finding Lane Lines on the Road" Report**
 ---
-
-**Finding Lane Lines on the Road**
-
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
-
 
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
+[image2]: ./examples/grayscale.jpg "Grayscale"
+[image3]: ./examples/grayscale.jpg "Grayscale"
+[image4]: ./examples/grayscale.jpg "Grayscale"
+[image5]: ./examples/grayscale.jpg "Grayscale"
 
 ---
 
@@ -27,13 +24,21 @@ My pipeline consisted of 5 steps.
 5. Run Hough on edge detected image
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by the following steps.
+
 1. Extrapolate to the top and bottom of the lane.
 2. Average the lines for the left line vs. the right line by their slope ((y2-y1)/(x2-x1))
 
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+Follow images show results how the pipeline works. 
 
 ![alt text][image1]
+
+![alt text][image2]
+
+![alt text][image3]
+
+![alt text][image4]
+
+![alt text][image5]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
