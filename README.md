@@ -30,24 +30,26 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 2. Average the lines for the left line vs. the right line by their slope ((y2-y1)/(x2-x1))
 
 Follow images show results how the pipeline works.
-### Orginal image
+## Orginal image
 <img src="test_images_out/s0.png" width="480" alt="Combined Image" />
 
-### Step1
-![alt text][image1]
+## Step1
+<img src="test_images_out/s1.png" width="480" alt="Combined Image" />
 
-### Step2
-![alt text][image2]
+## Step2
+<img src="test_images_out/s2.png" width="480" alt="Combined Image" />
 
-### Step3
-![alt text][image3]
+## Step3
+<img src="test_images_out/s3.png" width="480" alt="Combined Image" />
 
-### Step4
-![alt text][image4]
+## Step4
+<img src="test_images_out/s4.png" width="480" alt="Combined Image" />
 
-### Step5
-![alt text][image5]
+## Step5
+<img src="test_images_out/s5.png" width="480" alt="Combined Image" />
 
+## Final Result
+<img src="test_images_out/s6.png" width="480" alt="Combined Image" />
 
 ### 2. Identify potential shortcomings with your current pipeline
 
