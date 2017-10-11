@@ -3,6 +3,7 @@
 
 [//]: # (Image References)
 
+[image0]: ./test_images_out/s0.png "Grayscale"
 [image1]: ./test_images_out/s1.png "Grayscale"
 [image2]: ./test_images_out/s2.png "Grayscale"
 [image3]: ./test_images_out/s3.png "Grayscale"
@@ -28,16 +29,23 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 1. Extrapolate to the top and bottom of the lane.
 2. Average the lines for the left line vs. the right line by their slope ((y2-y1)/(x2-x1))
 
-Follow images show results how the pipeline works. 
+Follow images show results how the pipeline works.
+### Orginal image
+![alt text][image0]
 
+### Step1
 ![alt text][image1]
 
+### Step2
 ![alt text][image2]
 
+### Step3
 ![alt text][image3]
 
+### Step4
 ![alt text][image4]
 
+### Step5
 ![alt text][image5]
 
 
