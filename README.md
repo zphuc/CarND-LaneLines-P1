@@ -22,7 +22,7 @@ My pipeline consisted of 5 steps.
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by the following steps.
 
 1. Extrapolate to the top and bottom of the lane.
-2. Average the lines for the left line vs. the right line by their slope ((y2-y1)/(x2-x1))
+2. Average the lines for the left line vs. the right line by their slope ((y2-y1)/(x2-x1))  
    Moreover, I also adopted the ranges of the slopes from 15deg to 75deg to limit the error lines 
 
 
