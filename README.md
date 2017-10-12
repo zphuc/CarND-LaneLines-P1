@@ -12,11 +12,9 @@ My pipeline consisted of 5 steps.
 1. Converted the images to grayscale
 2. Applied Gaussian smoothing for each image
 3. Applied Canny
-4. Applied image mask
-
+4. Applied image mask  
    Some tuning was done for vertices to obtain the good mask 
-5. Run Hough on edge detected image
-
+5. Run Hough on edge detected image  
    Some tunning was done for the threshold, min_line_length and max_line_gap parameters.
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by the following steps.
